@@ -19,6 +19,7 @@ What environments should **not** include:
 
 | Name                                            | Attribute             |
 |-------------------------------------------------|-----------------------|
+| [AEON-777](envs/aeon-777)                       | `aeon-777`             |
 | [Arduino](envs/arduino)                         | `arduino`             |
 | [cc2538-bsl](envs/cc2538-bsl)                   | `cc2538-bsl`          |
 | [Jruby](envs/jruby)                             | `jruby`               |

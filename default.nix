@@ -1,6 +1,7 @@
 { pkgs ? import <nixpkgs> {}
 , pkgsUnfree ? import <nixpkgs> { config = { allowUnfree = true; }; }
 }: {
+  aeon-777 = import ./envs/aeon-777/shell.nix { inherit pkgs; };
   arduino = import ./envs/arduino/shell.nix { inherit pkgs; };
   buildroot = import ./envs/buildroot/shell.nix { inherit pkgs; };
   cc2538-bsl = import ./envs/cc2538-bsl/shell.nix { inherit pkgs; };
